@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloth of School - Luxury Store</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Playfair Display', 'Segoe UI', serif;
+        }
+        body {
+            background-color: #0b0b0b;
+            color: #e5e5e5;
+        }
+        /* Top Announcement Bar */
+        .announcement-bar {
+            background-color: #141414;
+            color: #d4af37;
+            text-align: center;
+            padding: 10px;
+            font-size: 13px;
+            letter-spacing: 2px;
+            border-bottom: 1px solid #222;
+        }
+        /* Header / Navbar */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            background: #0b0b0b;
+            border-bottom: 1px solid #222;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        .logo {
+            font-size: 26px;
+            font-weight: bold;
+            letter-spacing: 3px;
+            color: #d4af37;
+        }
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 35px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #ccc;
+            font-size: 14px;
+            font-weight: 500;
+            letter-spacing: 1px;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #d4af37;
+        }
+        /* Hero Banner Section */
+        .hero {
+            position: relative;
+            height: 80vh;
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&w=1920&q=80') no-repeat center center/cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: #fff;
+        }
+        .hero-content h1 {
+            font-size: 52px;
+            margin-bottom: 15px;
+            letter-spacing: 3px;
+            color: #d4af37;
+        }
+        .hero-content p {
+            font-size: 18px;
+            margin-bottom: 30px;
+            letter-spacing: 1px;
+            color: #ddd;
+        }
+        .btn {
+            background-color: transparent;
+            color: #d4af37;
+            border: 2px solid #d4af37;
+            padding: 12px 35px;
+            text-decoration: none;
+            font-weight: bold;
+            letter-spacing: 2px;
+            font-size: 14px;
+            transition: all 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #d4af37;
+            color: #0b0b0b;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Announcement Bar -->
+    <div class="announcement-bar">
+        COMPLIMENTARY SHIPPING WORLDWIDE | REDEFINING LUXURY
+    </div>
+
+    <!-- Header Navigation -->
+    <header>
+        <div class="logo">CLOTH OF SCHOOL</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Collections</a></li>
+                <li><a href="#">New Arrivals</a></li>
+                <li><a href="#">Exclusive</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Banner -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Elegance Woven in Black & Gold</h1>
+            <p>Discover the epitome of timeless fashion and sophistication.</p>
+            <a href="#" class="btn">EXPLORE COLLECTION</a>
+        </div>
+    </section>
+
+</body>
+</html>
